@@ -51,7 +51,7 @@ export function processData(data: spotifyResponse) {
 	}
 }
 
-export async function fetchSpotifyData(user: string, market: string) {
+export async function fetchSpotifyData() {
 	isLoading.set(true);
 	try {
 		const response = await fetchData(user, market);
