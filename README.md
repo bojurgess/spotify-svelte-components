@@ -1,4 +1,6 @@
+# WARNING: This library is broken :(
 # Using the library
+
 Each page (or layout), which requires spotify data must run the `fetchSpotifyData()` function, to ensure data loading before the initialisation of components.
 The fetchSpotifyData() function can be modified as needed to return data from somewhere else, as long as the returned data is parsable by processData().
 

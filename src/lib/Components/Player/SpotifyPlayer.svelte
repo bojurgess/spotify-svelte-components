@@ -2,8 +2,6 @@
 	import { data, isLoading, error } from '../../utils/spotifyUtils.js';
 	import { currentColor } from '../../utils/colorUtils.js';
 
-	const s: any = $data;
-
 	import ArtistList from './ArtistList.svelte';
 	import TrackProgress from './TrackProgress.svelte';
 </script>
